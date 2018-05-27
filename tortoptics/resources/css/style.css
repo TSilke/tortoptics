@@ -1,0 +1,34 @@
+/**Universal Styles**/
+html {
+  font-size: 18px;
+  line-height: 1.4;
+}
+ header {
+  font-size: 1rem;
+  font-family: Helvetica;
+ }
+
+ body {
+  font-family: Helvetica, sans-serif;
+  color: white;
+ }
+
+.header-container {
+  display: flex;
+}
+
+.header-bar {
+  padding-top: 1rem;
+}
+.images {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: cadetblue;
+  background-size: contain;
+}
+
+/**Header**/
+#logo {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/logo-white.png");
+}
