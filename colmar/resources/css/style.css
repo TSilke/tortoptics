@@ -1,0 +1,210 @@
+/**Universal Styles**/
+
+html {
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+}
+
+body {
+  font-family: "Roboto"; sans-serif;
+  letter-spacing: 2px;
+}
+
+.container {
+  position: relative;
+  top: 4rem; /**To offset for fixed header**/
+}
+
+.container #info-section {
+  display: flex;
+}
+
+.sub-container {
+  display: flex;
+  height: 16rem;
+  border: 2px solid black;
+}
+
+#lecture, #learn-section {
+  background-color: #d3d3d3;
+}
+
+.bold, h1  {
+  font-weight: bold;
+}
+
+.image {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: auto;
+  width: 35%;
+}
+
+.info-text h1 {
+  font-size: 4rem;
+  padding-top: 2rem;
+  padding-bottom: 1.5rem;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 1.75rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-family: "Rubik";
+  padding-top: 7rem;
+
+}
+span {
+  font-size: 3rem;
+}
+
+.info-image {
+  display: flex;
+  flex-direction: column;
+}
+
+.sub-text {
+  align-content: center;
+}
+
+/**Header**/
+
+header {
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  background-color: white;
+}
+
+header .content {
+  display: flex;
+  height: 4rem;
+  align-items: center;
+}
+
+header .logo {
+  flex: 1;
+}
+
+header .desktop.logo {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+header nav ul {
+  display: flex;
+  font-size: 1.5rem;
+}
+
+.desktop li:nth-child(-n+3) {
+  margin-right: 1rem;
+}
+
+.desktop li:nth-child(4) {
+  margin-right: 1.5rem;
+}
+
+/**Section 1 - Learn Something new everyday**/
+
+.container {
+  display: flex;
+  border: 2px dashed black;
+  padding-bottom: 2rem;
+  padding-left: 1.5rem;
+  padding-top: 2rem;
+}
+
+#learn-section-ct {
+  position: relative;
+  background-image: url("../images/banner.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50rem;
+  width: 60%;
+  margin: 2rem 1.5rem;
+}
+
+.banner-content, .info-content {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  text-align: left;
+  font-family: "Roboto"; sans-serif;
+  letter-spacing: 2px;
+  width: 40%;
+  border: 2px solid black;
+}
+
+.banner-content #header {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-top: 10rem;
+  margin-bottom: 2.5rem;
+  line-height: 1.2;
+}
+
+.banner-content #description {
+  margin-bottom: 2.5rem;
+  font-size: 3rem;
+}
+
+.banner-content #button {
+  color: white;
+  font-size: 2rem;
+  background-color: rgb(20,20,20);
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  width: 30rem;
+  text-align: center;
+}
+
+/**Section 2**/
+.info-content {
+  height: 50rem;
+  width: 40%;
+}
+
+#info-section {
+  background-color: #ededed;
+}
+
+#info-section-ct {
+  position: relative;
+  height: 50rem;
+  width: 60%;
+  margin: 2rem 1.5rem;
+  border: 2px solid black;
+}
+
+/**Section 3**/
+#start-section {
+  background-color: #e0e0e0;
+}
+/**Images**/
+
+#orientation-ct {
+  background-image: url("../images/information-orientation.jpg");
+}
+
+#campus-ct {
+  background-image: url("../images/information-campus.jpg");
+}
+
+#lecture-ct {
+  background-image: url("../images/information-guest-lecture.jpg");
+}
+
+#info-img {
+  background-image: url("../images/information-main.jpg");
+  height: 60%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
